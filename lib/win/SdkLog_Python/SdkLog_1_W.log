@@ -1,0 +1,20 @@
+[2025-03-18 16:14:20.394][DBG] CCoreGlobalCtrl::SetSDKPath, m_szSDKPath[D:/Code/CV/dissolution-and-precipitation/stream/lib/win/]->[D:/Code/CV/dissolution-and-precipitation/stream/lib/win/]
+[2025-03-18 16:14:20.394][DBG] CCoreGlobalCtrl::SetDllLoadPath, enumDllType[16][D:/Code/CV/dissolution-and-precipitation/stream/lib/win/libcrypto-1_1-x64.dll]
+[2025-03-18 16:14:20.394][DBG] CCoreGlobalCtrl::SetDllLoadPath, enumDllType[10][D:/Code/CV/dissolution-and-precipitation/stream/lib/win/libcrypto-1_1-x64.dll]
+[2025-03-18 16:14:20.394][DBG] CCoreGlobalCtrl::SetDllLoadPath, enumDllType[15][D:/Code/CV/dissolution-and-precipitation/stream/lib/win/libssl-1_1-x64.dll]
+[2025-03-18 16:14:20.394][DBG] CCoreGlobalCtrl::SetDllLoadPath, enumDllType[9][D:/Code/CV/dissolution-and-precipitation/stream/lib/win/libssl-1_1-x64.dll]
+[2025-03-18 16:14:20.394][ERR] CCoreGlobalCtrlBase::LoadDSo, HPR_LoadDSo Failed, Path[D:/Code/CV/dissolution-and-precipitation/stream/lib/win/zlib1.dll] syserror[126]
+[2025-03-18 16:14:20.394][ERR] Load zlib failed[syserr: 126]
+[2025-03-18 16:14:20.394][INF] The COM:HCCoreBase ver is 6.1.4.15, 2020_03_05. Async:1.
+[2025-03-18 16:14:20.394][INF] The COM:Core ver is 6.1.9.48, 2023_04_10. Async:1.
+[2025-03-18 16:14:20.394][INF] This HCNetSDK ver is 6.1.9.48 Ver 2023_04_10.
+[2025-03-18 16:14:20.394][INF] Login dev 192.168.10.170:8000.
+[2025-03-18 16:14:20.409][INF] Private connect 192.168.10.170:8000 sock=5664 this=0x33de60c cmd=0x10000 port=14061
+[2025-03-18 16:14:20.409][INF] LogonDev1 in[192.168.10.170:8000]
+[2025-03-18 16:14:20.493][DBG] ID-IP-CHAN[3-192.168.10.170-1] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.4.0.40]
+[2025-03-18 16:14:20.508][INF] Private connect 192.168.10.170:8000 sock=5548 this=0x33de60c cmd=0x30001 port=14062
+[2025-03-18 16:14:20.519][INF] Private connect 192.168.10.170:8244 sock=2848 this=0x33ded78 cmd=0x30001 port=56777
+[2025-03-18 16:14:20.519][ERR] GetOverlayFontPath Failed
+[2025-03-18 16:14:20.519][ERR] [5]PlayM4_Play[0x000001] failed[22]
+[2025-03-18 16:14:20.519][ERR] ID-IP-CHAN[3-192.168.10.170-1] [CPreviewPlayer::OpenPlayer] player[3249f04] play failed
+[2025-03-18 16:14:20.519][INF] CStreamConvert::LoadConvertLib Lib Already Load, m_iInitCount = 4
