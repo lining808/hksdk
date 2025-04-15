@@ -28,6 +28,15 @@ def base_dir():
 class VideoCapture:
 
     def __init__(self, ip, user, pwd, port=8000):
+        """
+        取流类
+        :param ip: 表名
+        :param user: 相机ip
+        :param user: 用户名
+        :param pwd: 密码
+        :param port: 端口号，sdk默认端口号8000，非554
+        :return:
+        """
         self.cap = HKCam(ip, port, user, pwd, base_dir() + "/lib/win")
         self.q = queue.Queue()
         t = threading.Thread(target=self._reader)
@@ -54,7 +63,7 @@ class VideoCapture:
 
 if __name__ == "__main__":
 
-    cap = VideoCapture('192.168.10.170', 'admin', 'ryzh123456')
+    cap = VideoCapture('192.168.10.170', 'admin', '123456')
     while True:
         frame = cap.read()
         cv2.imshow("frame", frame)

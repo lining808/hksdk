@@ -12,14 +12,15 @@
 ### 1.安装
 ```shell
 pip install hksdk
+# pip install hksdk -i https://www.pypi.org/simple
 ```
 ### 2.运行
 ```python
-import cv2
-from hksdk import VideoCapture
+import cv2, hksdk
+
 
 if __name__ == '__main__':
-    cap = VideoCapture('192.168.10.170', 'admin', 'ryzh123456')
+    cap = hksdk.VideoCapture('192.168.10.170', 'admin', '123456')
     while True:
         frame = cap.read()
         cv2.imshow("frame", frame)
